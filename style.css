@@ -24,18 +24,32 @@ header h1{
 
 /* input */
 
-.input{
+.text{
+    margin-top: 2vh;
+    text-align: center;
+}
+#text-area-class{
     font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+    height: 10vh;
+    padding: 0.5rem;
+    min-width: 40vw;
 
 }
 
-
+button{
+    text-align: center;
+}
+.div-btn{
+ text-align: center;
+}
 .button-translate{
     font-family: "Open Sans", sans-serif;
     font-size: 1.2rem;
     padding: 1rem;
     background-color: var(--primary-color);
     margin-top: 1vh;
+    text-align: center;
 }
 
 /* footer */
